@@ -45,6 +45,7 @@ body {
         height: 2.5em;
         line-height: 2.5em;
         display: block;
+        margin: 0 0.5em;
     }
     
     #navigation a:hover {
