@@ -7,6 +7,15 @@ body {
 }
 
 #navigation {
-    background-color: #3fcaac;
+    background-color: #1b1b1b;
     text-align: center;
+    color: #ffffff
+}
+
+#navigation a {
+    color: #ffffff
+}
+
+#navigation a:hover {
+    background-color: #3fcaac;
 }
