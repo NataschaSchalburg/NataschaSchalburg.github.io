@@ -6,6 +6,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
+    border: 0;
+    vertical-align: baseline;
 }
 
 /*navigation bar */
@@ -42,6 +44,7 @@ body {
         padding: 0 1em;
         height: 2.5em;
         line-height: 2.5em;
+        display: block;
     }
     
     #navigation a:hover {
@@ -61,7 +64,7 @@ body {
 
     /* classes? */
 .container {
-    margin: 1em;
+    margin: 0.5em;
 }
 
 
