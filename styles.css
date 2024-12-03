@@ -56,15 +56,14 @@ body {
     #last_edit {
         background-color: #d1d1d1;
         color: #515151;
-        position: fixed;
-        z-index: 0;
-        width: 100%;
-        bottom: 0;
+        padding-left: 0.5em;
     }
 
     /* classes? */
+
 .container {
     margin: 0.5em;
+    padding-top: 4em;
 }
 
 .rightaligedcolumn {
