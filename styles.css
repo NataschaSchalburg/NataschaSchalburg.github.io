@@ -4,6 +4,8 @@ body {
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 /*navigation bar */
@@ -13,6 +15,11 @@ body {
         color: #ffffff;
         height: 3.5em;
         line-height: 3.5em;
+        /* stay at top*/
+        position: fixed;
+        z-index: 0;
+        width: 100%;
+        top: 0;
     }
     
     #navigation ul {
@@ -31,8 +38,10 @@ body {
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
 		transition: background-color .2s ease-in-out;
-        text-decoration: none;
+        text-decoration: none; /*fjern underline*/
         padding: 0 1em;
+        height: 2.5em;
+        line-height: 2.5em;
     }
     
     #navigation a:hover {
@@ -42,7 +51,18 @@ body {
 
 /* footer */
     #last_edit {
-        background-color: #818181;
-        color: #1b1b11
+        background-color: #d1d1d1;
+        color: #515151;
+        position: fixed;
+        z-index: 0;
+        width: 100%;
+        bottom: 0;
     }
+
+    /* classes? */
+.container {
+    margin: 1em;
+}
+
+
 /*  #3fcaac */
