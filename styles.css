@@ -10,7 +10,9 @@ body {
     #navigation {
         background-color: #1b1b1b;
         text-align: center;
-        color: #ffffff
+        color: #ffffff;
+        height: 3.5em;
+        line-height: 3.5em;
     }
     
     /* #navigation ul {
@@ -29,16 +31,17 @@ body {
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
 		transition: background-color .2s ease-in-out;
+        text-decoration: none;
     }
     
     #navigation a:hover {
-        background-color: #202020;
+        background-color: #303030;
         color:  #3fcaac;
     }
 
 /* footer */
     #last_edit {
-        background-color: #d8d8d8;
+        background-color: #818181;
         color: #1b1b11
     }
 /*  #3fcaac */
