@@ -52,11 +52,23 @@ body {
         color:  #3fcaac;
     }
 
+    
+    #introduction ul {
+        list-style: none;
+    }
+    
+    #introduction li {
+        display: inline-block;
+    }
+
 /* footer */
     #last_edit {
         background-color: #d1d1d1;
         color: #515151;
         padding-left: 0.5em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
 
     /* classes? */
@@ -69,6 +81,10 @@ body {
 .rightaligedcolumn {
     text-align: right;
     padding-right: 0.2em;
+}
+
+.tablewithpic {
+    
 }
 
 /*  #3fcaac */
