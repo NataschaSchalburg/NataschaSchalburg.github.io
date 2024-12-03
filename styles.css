@@ -83,4 +83,11 @@ body {
     padding-right: 0.2em;
 }
 
+img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    padding: 1em;
+}
+
 /*  #3fcaac */
