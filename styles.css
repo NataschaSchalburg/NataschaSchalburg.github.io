@@ -34,7 +34,7 @@ body {
     
     #navigation a {
         color: #ffffff;
-        border-radius: 8px 0px 8px 0px;
+        border-radius: 14px 0px 14px 0px;
         /* otherwise no hover efect */
         -moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
@@ -80,7 +80,7 @@ body {
 }
 
 img {
-    border-radius: 100%;
+    border-radius: 0 50% 0 50%;
     width: 200px;
     height: 200px;
     padding: 1em;
