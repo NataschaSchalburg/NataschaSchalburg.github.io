@@ -1,0 +1,35 @@
+<div  id="contact" style="padding-top: 0;" class="container">
+        <h1> Contact information </h1>
+        <table>
+            <tr>
+                <td class ="rightaligedcolumn">Name</td>
+                <td>Natascha Schalburg</td>
+            </tr>
+            <tr>
+                <td class ="rightaligedcolumn">Title</td>
+                <td>Ph.d Student</td>
+            </tr>
+            <tr>
+                <td class ="rightaligedcolumn">Address</td>
+                <td> <a href="http://cs.au.dk"> Department of Computer Science </a>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Aarhus University <br>
+                    Building 5335, Room 320 <br>
+                    Finlandsgade 21 <br>
+                    8200 Aarhus <br>
+                    Denmark <br>
+                    </td>  
+                </td>
+            </tr>
+            <tr>
+                <td class ="rightaligedcolumn">Email</td>
+                <td><a href="mailto:n.schalburg@cs.au.dk"></a> n.schalburg@cs.au.dk </td>
+            </tr>
+            <tr>
+                <td class ="rightaligedcolumn">URL</td>
+                <td><a href="https://nataschaschalburg.github.io./"> https://nataschaschalburg.github.io./ </a></td>
+            </tr>
+        </table>
+    </div>
