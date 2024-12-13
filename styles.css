@@ -36,10 +36,10 @@ body {
         color: #ffffff;
         border-radius: 14px 0px 14px 0px;
         /* otherwise no hover efect */
-        -moz-transition: background-color .2s ease-in-out;
-		-webkit-transition: background-color .2s ease-in-out;
-		-ms-transition: background-color .2s ease-in-out;
-		transition: background-color .2s ease-in-out;
+        -moz-transition: background-color .25s ease-in-out;
+		-webkit-transition: background-color .25s ease-in-out;
+		-ms-transition: background-color .25s ease-in-out;
+		transition: background-color .25s ease-in-out;
         text-decoration: none; /*fjern underline*/
         padding: 0 1em;
         height: 2.5em;
@@ -49,8 +49,9 @@ body {
     }
     
     #navigation a:hover {
-        background-color: #303030;
-        color:  #3fcaac;
+        background-color: seagreen;
+        color:  #000000
+        ;
     }
 
     
@@ -64,8 +65,8 @@ body {
 
 /* footer */
     #last_edit {
-        background-color: #d1d1d1;
-        color: #515151;
+        background-color: #2e8b5736;
+        color: #2e8b578a;
         padding-left: 0.5em;
     }
 
@@ -84,7 +85,11 @@ img {
     border-radius: 0 50% 0 50%;
     width: 25vw;
     height: 25vw;
-    padding: 1em;
+    margin: 0.7vw;
+    border: 0.3vw solid seagreen;
 }
 
+hr {
+    border: 0.3vh solid #2e8b5770;
+}
 /*  #3fcaac */
