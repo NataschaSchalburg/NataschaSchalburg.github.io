@@ -8,11 +8,12 @@ body {
     margin: 0;
     border: 0;
     vertical-align: baseline;
+    color: #2e2e2e;
 }
 
 /*navigation bar */
     #navigation {
-        background-color: #1b1b1b;
+        background-color: #2e2e2e;
         text-align: center;
         color: #ffffff;
         height: 4vw;
@@ -87,7 +88,7 @@ img {
     width: 20vw;
     height: 20vw;
     margin: 0.7vw;
-    border: 0.3vw solid seagreen;
+    border: 0.3vw solid #2e8b5770;
 }
 
 hr {
