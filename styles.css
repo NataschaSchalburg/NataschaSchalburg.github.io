@@ -16,8 +16,8 @@ body {
         background-color: #2e2e2e;
         text-align: center;
         color: #ffffff;
-        height: 4vw;
-        line-height: 4vw;
+        height: 4em;
+        line-height: 4em;
         /* stay at top*/
         position: fixed;
         z-index: 0;
@@ -46,8 +46,8 @@ body {
         height: 2.5em;
         line-height: 2.5em;
         display: block;
-        margin: 0 0.5em;
-        font-size: 1.2vw;
+        margin: 0 0.75em;
+        font-size: 1.25em;
     }
     
     #navigation a:hover {
@@ -65,21 +65,26 @@ body {
         display: inline-block;
     }
 
-    #topbanner div{
+    div #topbanner {
         background-color: #45b2aa61
+    }
+
+    a {
+        text-decoration: none;
+        color: lightseagreen;
     }
 
 /* footer */
     #last_edit {
         background-color: #45b2aa61;
-        color: #45b2aa61;
+        color: lightseagreen;
         padding-left: 0.5em;
     }
 
     /* classes? */
 
 .container {
-    padding: 4vw;
+    padding: 4.1em;
 }
 
 .rightaligedcolumn {
@@ -89,21 +94,21 @@ body {
 
 img {
     border-radius: 0 50% 0 50%;
-    width: 20vw;
-    height: 20vw;
-    margin: 0.7vw;
-    border: 0.3vw solid #ffffff9e;
+    width: 20.5em;
+    height: 20.5em;
+    margin: 1em;
+    border: thick solid #ffffff9e;
 }
 
 h1 {
-    font-size: 3.2vw;
+    font-size: 3.9em;
 }
 
 p {
-    font-size: 1.3vw;
+    font-size: 1.5em;
 }
 
 hr {
-    border: 0.4vh solid #45b2aa61;
+    border: thick solid #45b2aa61;
 }
 /*  #3fcaac */
