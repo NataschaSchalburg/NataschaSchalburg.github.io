@@ -51,8 +51,8 @@ body {
     }
     
     #navigation a:hover {
-        background-color: seagreen;
-        color:  #000000
+        background-color: lightseagreen;
+        color:  #2e2e2e
         ;
     }
 
@@ -65,10 +65,14 @@ body {
         display: inline-block;
     }
 
+    #topbanner div{
+        background-color: #45b2aa61
+    }
+
 /* footer */
     #last_edit {
-        background-color: #2e8b5736;
-        color: #2e8b578a;
+        background-color: #45b2aa61;
+        color: #45b2aa61;
         padding-left: 0.5em;
     }
 
@@ -100,6 +104,6 @@ p {
 }
 
 hr {
-    border: 0.4vh solid #2e8b5770;
+    border: 0.4vh solid #45b2aa61;
 }
 /*  #3fcaac */
