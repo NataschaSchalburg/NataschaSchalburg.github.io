@@ -88,10 +88,18 @@ img {
     width: 20vw;
     height: 20vw;
     margin: 0.7vw;
-    border: 0.3vw solid #2e8b5770;
+    border: 0.3vw solid #ffffff9e;
+}
+
+h1 {
+    font-size: 3.2vw;
+}
+
+p {
+    font-size: 1.3vw;
 }
 
 hr {
-    border: 0.3vh solid #2e8b5770;
+    border: 0.4vh solid #2e8b5770;
 }
 /*  #3fcaac */
