@@ -57,11 +57,11 @@ body {
     }
 
     
-    #introduction ul {
+    #top_banner ul {
         list-style: none;
     }
     
-    #introduction li {
+    #top_banner li {
         display: inline-block;
     }
 
