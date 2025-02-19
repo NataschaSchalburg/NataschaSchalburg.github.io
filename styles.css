@@ -58,11 +58,14 @@ body {
 
     
     #top_banner ul {
-        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
     
     #top_banner li {
-        display: inline-block;
+        display: inline-flex;
+        flex-direction: column;
     }
 
     div#topbanner {
