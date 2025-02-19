@@ -16,8 +16,8 @@ body {
         background-color: #2e2e2e;
         text-align: center;
         color: #ffffff;
-        height: 4vw;
-        line-height: 4vw;
+        height: 4em;
+        line-height: 4em;
         /* stay at top*/
         position: fixed;
         z-index: 0;
@@ -46,36 +46,45 @@ body {
         height: 2.5em;
         line-height: 2.5em;
         display: block;
-        margin: 0 0.5em;
-        font-size: 1.2vw;
+        margin: 0 0.75em;
+        font-size: 1.25em;
     }
     
     #navigation a:hover {
-        background-color: seagreen;
-        color:  #000000
+        background-color: lightseagreen;
+        color:  #2e2e2e
         ;
     }
 
     
-    #introduction ul {
+    #top_banner ul {
         list-style: none;
     }
     
-    #introduction li {
+    #top_banner li {
         display: inline-block;
+    }
+
+    div#topbanner {
+        background-color: #c0e2dfdb
+    }
+
+    a {
+        text-decoration: none;
+        color: lightseagreen;
     }
 
 /* footer */
     #last_edit {
-        background-color: #2e8b5736;
-        color: #2e8b578a;
+        background-color: #45b2aa61;
+        color: lightseagreen;
         padding-left: 0.5em;
     }
 
     /* classes? */
 
 .container {
-    padding: 4vw 0 4vw 4vw;
+    padding: 4.1em;
 }
 
 .rightaligedcolumn {
@@ -85,13 +94,21 @@ body {
 
 img {
     border-radius: 0 50% 0 50%;
-    width: 20vw;
-    height: 20vw;
-    margin: 0.7vw;
-    border: 0.3vw solid #2e8b5770;
+    width: 24.5em;
+    height: 24.5em;
+    margin: 1em;
+    border: thick solid #ffffff9e;
+}
+
+h1 {
+    font-size: 3.9em;
+}
+
+p {
+    font-size: 1.5em;
 }
 
 hr {
-    border: 0.3vh solid #2e8b5770;
+    border: thick solid #45b2aa61;
 }
 /*  #3fcaac */
