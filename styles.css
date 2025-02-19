@@ -26,7 +26,12 @@ body {
     }
     
     #navigation ul {
-        list-style: none;
+        display: inline-flex;
+        width: 93%;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
     }
     
     #navigation li {
@@ -41,13 +46,9 @@ body {
 		-webkit-transition: background-color .25s ease-in-out;
 		-ms-transition: background-color .25s ease-in-out;
 		transition: background-color .25s ease-in-out;
-        text-decoration: none; /*fjern underline*/
-        padding: 0 1em;
-        height: 2.5em;
-        line-height: 2.5em;
+        padding: 0.5em;
         display: block;
-        margin: 0 0.75em;
-        font-size: 1.25em;
+        margin: 0 0.25em;
     }
     
     #navigation a:hover {
