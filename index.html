@@ -20,23 +20,18 @@ body {
 }
 
 .topnav a {
-  float: left;
-  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition: background-color .25s ease-in-out;
+  border-radius: 14px 0px 14px 0px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: lightseagreen;
   color: black;
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
 }
 
 .topnav .icon {
@@ -71,6 +66,11 @@ body {
     justify-content: space-between;
   }
 }
+
+.container {
+    padding-left: 16px;
+}
+
 </style>
 </head>
 <body>
@@ -85,9 +85,28 @@ body {
   </a>
 </div>
 
-<div style="padding-left:16px">
-  <h2>Responsive Topnav Example</h2>
-  <p>Resize the browser window to see how it works.</p>
+<hr>
+<div id="banner" class="container">
+</div>
+<hr>
+
+<div id="About Me" class="container">
+  <h1>About Me</h1>
+</div>
+
+<hr>
+<div id="research_interests" class="container">
+  <h1>Research Interests</h1>
+</div>
+
+<hr>
+<div id="publications" class="container">
+  <h1>Publications</h1>
+</div>
+
+<hr>
+<div id="teaching" class="container" style="display: none;">
+  <h1>Teaching</h1>
 </div>
 
 <script>
