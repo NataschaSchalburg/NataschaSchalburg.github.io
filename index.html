@@ -1,76 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Natascha Schalburg </title>
-    <link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
 </head>
 <body>
-    <nav id="navigation"> 
-        <ul>
-            <li>
-                <p><a href="https://nataschaschalburg.github.io/"> Top </a></p>
-            </li>
-            <li>
-                <p><a href="#AboutMe"> About Me </a></p>
-            </li>
-            <li>
-                <p><a href="#research_interests"> Research Interests </a></p>
-            </li>
-            <li>
-                <p><a href="#publications"> Publications </a></p>
-            </li>
-            <li>
-                <p><a href="#teaching"> Teaching </a></p>
-            </li>
-        </ul>
-    </nav>
-    <div style="padding-top: 3.5em"></div> <!-- under navbar - space -->
-    <div  id="top_banner" class="container">
-        <ul style="display: inline-flex;">
-            <li>
-                <p>Image</p>
-            </li>
-            <li>
-                <p>Name, info</p>
-            </li>
-            <li>
-                <p>fill space</p>
-            </li>
-        </ul>
-    </div>
-    <hr style="border-color: #2e2e2e; border-width: thick;">
-    <div id="AboutMe" class="container">
-        <h1> About Me</h1>  
-        <p>
-        I'm a Ph.d student at Aarhus University at the Department of Computer Science. I'm part of the <a href="https://cs.au.dk/research/algorithms-data-structures-and-foundations-of-machine-learning">Algorithms, Data Structures and Foundations of Machine Learning group</a>
-        which is headed by my supervisor: professor <a href="https://cs.au.dk/~larsen/">Kasper Green Larsen</a>. <!-- hvad er beskrivelsen for min stilling...--> 
-        <br> I have a background in mathematics, and i have a master's degree in mathematics from Aarhus University. As a mathematics student i was especially interested in abstract algebra including category theory.  
-    </p> 
 
-    <!-- Cv link? -->
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
-    </div>
-    <hr >
-    <div id="research_interests" class="container">
-        <h1> Research Interests </h1>
-        <p>
-            Theoretical Computer Science, specifically theory of machine learning. I'm currently working on: 
-        </p>
-    </div>
-    <hr >
-    <div id="publications" class="container">
-        <h1> Publications </h1>
-        <p> Nothing yet, but i'm working on it!</p>
-    </div>
-    <hr >
-    <div id="teaching" class="container">
-        <h1> Teaching </h1>
-    </div>
-    
-    <div id="last_edit" >
-        Last edit: 19. Februar 2025
-    </div>
+<div style="padding-left:16px">
+  <h2>Responsive Topnav Example</h2>
+  <p>Resize the browser window to see how it works.</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
 </body>
-
-
 </html>
