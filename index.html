@@ -130,6 +130,14 @@ hr {
   color: #333;
   padding: 0 1em;
 }
+
+span {
+  border: 7px solid #ffffff00;
+}
+
+span:hover {
+  background-color: #20b2aa36;
+}
 </style>
 </head>
 <body>
@@ -182,7 +190,7 @@ hr {
   <h1>Publications</h1>
   <div class="paper">
     <div class="list marker">
-      <span class="material-symbols-rounded" style="font-size: xx-large" onclick="showAbstract()" id="icon">
+      <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 0 50% 0 50%;" onclick="showAbstract()" id="icon">
         expand_circle_right
       </span>
     </div>
@@ -196,7 +204,7 @@ hr {
     </div>
     <div class="icons">
       <a href="Papers/Tight Generalization Bounds for Large-Margin Halfspaces.pdf" class="iconLink">
-        <span class="material-symbols-rounded" style="font-size: xx-large;">
+        <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 50% 0 50% 0;">
         file_open
         </span>
       </a>
