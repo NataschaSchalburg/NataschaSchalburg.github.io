@@ -20,6 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  background-color: white;
 }
 
 .topnav {
@@ -109,7 +110,7 @@ img {
   width: 23em;
   height: 23em;
   border-radius: 0% 50% 0% 50%;
-  border: thick solid #f2f2f2;
+  border: thick solid white;
 }
 
 hr {
@@ -139,7 +140,7 @@ hr {
 
 <div id="banner" class="container" style="flex-direction: row; justify-content: space-evenly; align-items: center; padding: 0; margin: 3em 0;">
   <img src="Natascharedigeret.jpg"></img>
-  <div class="BannerDescription" style="text-align: center; border: thick solid #f2f2f2;">
+  <div class="BannerDescription" style="text-align: center; border: thick solid white;">
     <h1>Natascha Schalburg</h1>
     <p>
       PhD student
@@ -175,7 +176,7 @@ hr {
   <h1>Publications</h1>
   <div class="paper">
     <div class="list marker">
-      <span class="material-symbols-rounded" style="font-size: xx-large;font-variation-settings: 'FILL' 0,  'wght' 400,  'GRAD' 200,  'opsz' 25; ">
+      <span class="material-symbols-rounded" style="font-size: xx-large" onclick="showAbstract()" id="icon">
         expand_circle_right
       </span>
     </div>
@@ -209,6 +210,16 @@ function myFunction() {
   }
 }
 </script>
+<script>
+  function showAbstract(){
+    var icon = document.getElementById("icon") ;
+      if (icon.innerHTML === "expand_circle_right") {
+        icon.innerHTML = "expand_circle_down";
+      } else {
+        icon.innerHTML = "expand_circle_right";
+      }
+  }
+  </script>
 
 </body>
 </html>
