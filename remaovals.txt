@@ -1,3 +1,4 @@
+Old info table
 <div  id="contact" style="padding-top: 0;" class="container">
         <h1> Contact information </h1>
         <table>
@@ -33,3 +34,27 @@
             </tr>
         </table>
     </div>
+
+
+
+Intro banner:
+<ul style="display: inline-flex; list-style: none;">
+            <li style="padding: 5em 5em 5em 0;">
+                <img src="Natascharedigeret.jpg"> 
+                </img>
+            </li>
+            <li style="
+                vertical-align: top;
+                padding-top: 12vw;
+                text-align: center;
+                width: 36vw;">
+                <h1> Natascha Schalburg </h1>
+                <p>
+                    PhD student
+                    <br>
+                    Aarhus University, Department of Computer Science
+                    <br>
+                    n.schalburg@cs.au.dk
+                </p>
+            </li>
+        </ul>
