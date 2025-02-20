@@ -192,6 +192,11 @@ hr {
         </span>
       </a>
     </div>
+    <div id="abstract" style="display: none;">
+      <p>
+        We prove the first generalization bound for large-margin halfspaces that is asymptotically tight in the tradeoff between the margin, the fraction of training points with the given margin, the failure probability and the number of training points.
+      </p>
+    </div>
   </div>
 </div>
 
@@ -213,11 +218,15 @@ function myFunction() {
 <script>
   function showAbstract(){
     var icon = document.getElementById("icon") ;
+    var abst = document.getElementById("abstract") ;
       if (icon.innerHTML === "expand_circle_right") {
         icon.innerHTML = "expand_circle_down";
+        abst.style.display = "";
       } else {
         icon.innerHTML = "expand_circle_right";
+        abst.style.display = "none"
       }
+    
   }
   </script>
 
