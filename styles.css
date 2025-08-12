@@ -15,7 +15,7 @@ p {
 }
 a {
   text-decoration: none;
-  color: cadetblue;
+  color: lightseagreen;
 }
 
 /*
@@ -41,7 +41,7 @@ Navigation
   margin: 0.5em;
 }
 .topnav a:hover {
-  background-color: cadetblue;
+  background-color: lightseagreen;
   color: #333;
 }
 .topnav .icon {
@@ -64,7 +64,7 @@ Layout
   width: 83%;
 }
 hr {
-  border: thin solid cadetblue;
+  border: thin solid lightseagreen;
   margin: 0 auto;
 }
 .container {
@@ -91,7 +91,7 @@ Banner
 Papers
 ===================================*/
 h3.paperTitle {
-  color: cadetblue;
+  color: lightseagreen;
 }
 .paper {
   display: inline-flex;
