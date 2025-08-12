@@ -15,7 +15,7 @@ p {
 }
 a {
   text-decoration: none;
-  color: lightseagreen;
+  color: darkcyan;
 }
 
 /*
@@ -41,7 +41,7 @@ Navigation
   margin: 0.5em;
 }
 .topnav a:hover {
-  background-color: lightseagreen;
+  background-color: darkcyan;
   color: #333;
 }
 .topnav .icon {
@@ -64,7 +64,7 @@ Layout
   width: 83%;
 }
 hr {
-  border: thin solid lightseagreen;
+  border: thin solid darkcyan;
   margin: 0 auto;
 }
 .container {
@@ -91,7 +91,7 @@ Banner
 Papers
 ===================================*/
 h3.paperTitle {
-  color: lightseagreen;
+  color: darkcyan;
 }
 .paper {
   display: inline-flex;
