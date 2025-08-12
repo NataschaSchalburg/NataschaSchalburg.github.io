@@ -25,7 +25,7 @@ Navigation
 .topnav {
   overflow: hidden;
   background-color: #333;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: stretch;
@@ -35,7 +35,6 @@ Navigation
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: larger;
   transition: background-color .25s ease-in-out;
   border-radius: 14px 0px 14px 0px;
@@ -95,7 +94,7 @@ h3.paperTitle {
   color: lightseagreen;
 }
 .paper {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -154,7 +153,7 @@ Responsive
   }
   .topnav.responsive a {
       text-align: left;
-      display: flex;
+      display: inline-flex;
       flex-direction: column;
   }
   .topnav {
