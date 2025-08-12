@@ -27,69 +27,69 @@
   </a>
 </div>
 
-<div id="banner" style="display: inline-flex; flex-wrap: wrap; flex-direction: row; justify-content: space-evenly; align-items: center; padding: 0; margin: 3em 0;">
-  <img src="Natascharedigeret.jpg"></img>
-  <div class="BannerDescription" style="text-align: center; border: thick solid white;">
-    <h1>Natascha Schalburg</h1>
+<div class="content">
+  <div id="banner" class="container">
+    <img src="Natascharedigeret.jpg"></img>
+    <div class="BannerDescription" >
+      <h1>Natascha Schalburg</h1>
+      <p>
+        PhD student
+        <br>
+        Aarhus University, Department of Computer Science
+        <br>
+        n.schalburg@cs.au.dk
+      </p>
+    </div>
+  </div>
+  <hr>
+  <div id="AboutMe" class="container">
+    <h1>About Me</h1>
     <p>
-      PhD student
-      <br>
-      Aarhus University, Department of Computer Science
-      <br>
-      n.schalburg@cs.au.dk
+      I'm a Ph.d student at Aarhus University at the Department of Computer Science. I belong at the research group <a href="https://cs.au.dk/research/algorithms-data-structures-and-foundations-of-machine-learning">Algorithms, Data Structures and Foundations of Machine Learning group</a>
+      with professor <a href="https://cs.au.dk/~larsen/">Kasper Green Larsen</a> as my supervisor. The objective of my Ph.d position is to explore classical learning algorithms and their theoretical limits.
+      <br><br> Before starting research in computer science, i completed a master's degree in mathematics from Aarhus University. As a mathematics student i was especially interested in abstract algebra including category theory which i wrote my master's thesis about.
+      <br><br> Outside work, i enjoy playing Dungeons and Dragons and Stardew Valley. If you ever need to find me in a seminar-room, look for someone crocheting. 
+    </p>    <!-- Cv link? -->
+  </div>
+
+  <hr>
+  <div id="ResearchInterests" class="container">
+    <h1>Research Interests</h1>
+    <p>
+      My interests lies in the theory of machine learning. Currently im thinking about problems connected to: Large margin classifiers, partial concept classes, covering numbers and fat-shattering dimension.
     </p>
   </div>
-</div>
-<hr>
 
-<div id="AboutMe" class="container">
-  <h1>About Me</h1>
-  <p>
-    I'm a Ph.d student at Aarhus University at the Department of Computer Science. I belong at the research group <a href="https://cs.au.dk/research/algorithms-data-structures-and-foundations-of-machine-learning">Algorithms, Data Structures and Foundations of Machine Learning group</a>
-    with professor <a href="https://cs.au.dk/~larsen/">Kasper Green Larsen</a> as my supervisor. The objective of my Ph.d position is to explore classical learning algorithms and their theoretical limits.
-    <br><br> Before starting research in computer science, i completed a master's degree in mathematics from Aarhus University. As a mathematics student i was especially interested in abstract algebra including category theory which i wrote my master's thesis about.
-    <br><br> Outside work, i enjoy playing Dungeons and Dragons and Stardew Valley. If you ever need to find me in a seminar-room, look for someone crocheting. 
-  </p>    <!-- Cv link? -->
-</div>
-
-<hr>
-<div id="ResearchInterests" class="container">
-  <h1>Research Interests</h1>
-  <p>
-    My interests lies in the theory of machine learning. Currently im thinking about problems connected to: Large margin classifiers, partial concept classes, covering numbers and fat-shattering dimension.
-  </p>
-</div>
-
-<hr>
-<div id="Publications" class="container">
-  <h1>Publications</h1>
-  <div class="paper">
-    <div class="list marker">
-      <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 0 50% 0 50%;" onclick="showAbstract()" id="icon">expand_circle_right</span>
-    </div>
-    <div style="width: 80%;">
-      <h3 style="color: lightseagreen;">Tight Generalization Bounds for Large-Margin Halfspaces</h3>
-      <p class="abstract" id="abstract" style="display: none;">
-        We prove the first generalization bound for large-margin halfspaces that is asymptotically tight in the tradeoff between the margin, the fraction of training points with the given margin, the failure probability and the number of training points.
-      </p>
-      <p>Kasper Green Larsen, Natascha Schalburg</p>
-      <p>Manuscript</p>
-    </div>
-    <div class="icons">
-      <a href="Papers/Tight Generalization Bounds for Large-Margin Halfspaces.pdf" class="iconLink">
-        <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 50% 0 50% 0;">
-        file_open
-        </span>
-      </a>
+  <hr>
+  <div id="Publications" class="container">
+    <h1>Publications</h1>
+    <div class="paper">
+      <div class="icon">
+        <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 0 50% 0 50%;" onclick="showAbstract()" id="icon">expand_circle_right</span>
+      </div>
+      <div class="paperDescription">
+        <h3 class="paperTitle">Tight Generalization Bounds for Large-Margin Halfspaces</h3>
+        <p class="abstract" id="abstract" style="display: none;">
+          We prove the first generalization bound for large-margin halfspaces that is asymptotically tight in the tradeoff between the margin, the fraction of training points with the given margin, the failure probability and the number of training points.
+        </p>
+        <p class="paperAuthors">Kasper Green Larsen, Natascha Schalburg</p>
+        <p class="paperStatus">Manuscript</p>
+      </div>
+      <div class="icon">
+        <a href="Papers/Tight Generalization Bounds for Large-Margin Halfspaces.pdf" class="iconLink">
+          <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 50% 0 50% 0;">
+          file_open
+          </span>
+        </a>
+      </div>
     </div>
   </div>
-</div>
 
-<hr>
-<div id="teaching" class="container" style="display: none;">
-  <h1>Teaching</h1>
+  <hr>
+  <div id="teaching" class="container" style="display: none;">
+    <h1>Teaching</h1>
+  </div>
 </div>
-
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
