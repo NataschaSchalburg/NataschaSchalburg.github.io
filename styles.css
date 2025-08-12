@@ -34,11 +34,11 @@ Navigation
 .topnav a {
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.825em 1em;
   font-size: larger;
   transition: background-color .25s ease-in-out;
-  border-radius: 14px 0px 14px 0px;
-  margin: 7px;
+  border-radius: 0.825em 0 0.825em 0;
+  margin: 0.5em;
 }
 .topnav a:hover {
   background-color: lightseagreen;
@@ -113,17 +113,17 @@ Images and icons
   color: #333;
 }
 div.icon {
-  margin: 15px;
+  margin: 1em;
 }
 img {
   width: 23em;
-  height: 23em;
+  max-width: 100%;
   border-radius: 0% 50% 0% 50%;
   border: thick solid white;
-  margin: 32px 0;
+  margin: 2em 0;
 }
 span {
-  border: 12px solid #ffffff00;
+  border: 1em solid #ffffff00;
 }
 span:hover {
   background-color: #20b2aa36;
