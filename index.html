@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=block">
+<link rel="stylesheet" href="styles.css">
 <style>
   .material-symbols-rounded {
     font-variation-settings:
@@ -12,132 +13,6 @@
     'GRAD' 200,
     'opsz' 24
   }
-</style>
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  background-color: white;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: stretch;
-  justify-content: space-evenly;
-}
-
-.topnav a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: larger;
-  transition: background-color .25s ease-in-out;
-  border-radius: 14px 0px 14px 0px;
-  margin: 7px;
-}
-
-.topnav a:hover {
-  background-color: lightseagreen;
-  color: #333;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 850px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-  .topnav a.icon {
-    display: inline-flex;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .topnav.responsive {
-    position: relative;
-    flex-direction: column;
-  }
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-  }
-  .topnav {
-    justify-content: space-between;
-  }
-}
-
-p {
-    font-size: larger;
-  }
-  
-a {
-text-decoration: none;
-color: lightseagreen;
-}
-
-.iconLink {
-  color: #333;
-}
-
-.container {
-    padding-left: 16px;
-    padding-right: 16px;
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-around;
-    align-content: stretch;
-}
-
-img {
-  width: 23em;
-  height: 23em;
-  border-radius: 0% 50% 0% 50%;
-  border: thick solid white;
-}
-
-hr {
-  border: thin solid lightseagreen;
-  margin: 0;
-}
-
-.paper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.abstract {
-  font-style: oblique;
-  color: #333;
-  padding: 0 1em;
-}
-
-span {
-  border: 12px solid #ffffff00;
-}
-
-span:hover {
-  background-color: #20b2aa36;
-}
 </style>
 </head>
 <body>
@@ -152,7 +27,7 @@ span:hover {
   </a>
 </div>
 
-<div id="banner" class="container" style="flex-direction: row; justify-content: space-evenly; align-items: center; padding: 0; margin: 3em 0;">
+<div id="banner" style="display: inline-flex; flex-wrap: wrap; flex-direction: row; justify-content: space-evenly; align-items: center; padding: 0; margin: 3em 0;">
   <img src="Natascharedigeret.jpg"></img>
   <div class="BannerDescription" style="text-align: center; border: thick solid white;">
     <h1>Natascha Schalburg</h1>
@@ -224,6 +99,7 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
 </script>
 <script>
   function showAbstract(){
