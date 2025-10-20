@@ -12,12 +12,21 @@ body {
 }
 p {
     font-size: larger;
+    line-height: 1.75;
 }
 a {
   text-decoration: none;
   color: darkcyan;
 }
 
+a.subtleLink {
+  color: darkslategrey
+}
+
+font.highlighted {
+  color: #3ec4c4;
+  font-weight: bold;
+}
 /*
 ===================================
 Navigation
@@ -90,7 +99,7 @@ Banner
 ===================================
 Papers
 ===================================*/
-h3.paperTitle {
+.paperTitle {
   color: darkcyan;
 }
 .paper {
