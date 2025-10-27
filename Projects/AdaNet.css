@@ -91,6 +91,26 @@ Banner
 h1.bannerTitle {
     font-size: xxx-large;
 }
+img.BannerImage {
+    height: 27rem;
+}
+
+h3.bannerSubtitle {
+    text-align: center;
+}
+
+/*===================================
+Footer
+===================================*/
+footer {
+    margin-top: 3rem;
+}
+
+p.copyrightText {
+    font-size: small;
+    color: lightgrey;
+}
+
 
 /*===================================
 Images and icons
