@@ -74,11 +74,17 @@ dl.eventMeta{
 
 dl.eventMeta dt, dl.eventMeta dd {
     margin: 1em 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+dl.eventMeta span.material-symbols-outlined {
+    margin: 0 0.2em;
 }
 
 dl.eventMeta dt {
     font-weight: bold;
-    width: 6rem;
+    width: 7rem;
 }
 dl.eventMeta dd {
     width: calc(100% - 3rem);
