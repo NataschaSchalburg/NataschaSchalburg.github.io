@@ -62,9 +62,11 @@ div.event{
     border-style: solid;
     width: 95%;
     text-align: left;
+    padding-top: 1rem;
 }
 div.event:first-child {
     border-width: 0;
+    padding-top: 0;
 }
 
 dl.eventMeta{
