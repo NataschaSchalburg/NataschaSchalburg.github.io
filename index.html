@@ -65,11 +65,11 @@
     <h1>Publications</h1>
     <div class="paper">
       <div class="icon">
-        <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 0 50% 0 50%;" onclick="showAbstract()" id="icon">expand_circle_right</span>
+        <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 0 50% 0 50%;" onclick="showAbstract(0)" id="icon0">expand_circle_right</span>
       </div>
       <div class="paperDescription">
         <h2 class="paperTitle">Tight Generalization Bounds for Large-Margin Halfspaces</h2>
-        <p class="abstract" id="abstract" style="display: none;">
+        <p class="abstract" id="abstract0" style="display: none;">
           We prove the first generalization bound for large-margin halfspaces that is asymptotically tight in the tradeoff between the margin, the fraction of training points with the given margin, the failure probability and the number of training points.
         </p>
         <p class="paperAuthors"><a class="subtleLink" href="https://cs.au.dk/~larsen/">Kasper Green Larsen</a>, Natascha Schalburg</p>
@@ -84,6 +84,33 @@
       </div>
       <div class="icon">
         <a href="Papers/Tight Generalization Bounds for Large-Margin Halfspaces.pdf" class="iconLink">
+          <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 50% 0 50% 0;">
+          file_open
+          </span>
+        </a>
+      </div>
+    </div>
+    <div class="paper">
+      <div class="icon">
+        <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 0 50% 0 50%;" onclick="showAbstract(1)" id="icon1">expand_circle_right</span>
+      </div>
+      <div class="paperDescription">
+        <h2 class="paperTitle">Tight Margin-Based Generalization Bounds for Voting Classifiers over Finite Hypothesis Sets</h2>
+        <p class="abstract" id="abstract1" style="display: none;">
+          We prove the first margin-based generalization bound for voting classifiers, that is asymptotically tight in the tradeoff between the size of the hypothesis set, the margin, the fraction of training points with the given margin, the number of training samples and the failure probability.
+        </p>
+        <p class="paperAuthors"><a class="subtleLink" href="https://cs.au.dk/~larsen/">Kasper Green Larsen</a>, Natascha Schalburg</p>
+        <p class="paperStatus"> Manuscript. </p>
+      </div>
+      <div class="icon">
+        <a href="https://arxiv.org/abs/2511.20407" class="iconLink">
+          <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 50% 0 50% 0;">
+          link
+          </span>
+        </a>
+      </div>
+      <div class="icon">
+        <a href="Papers/Tight Margin-Based Generalization Bounds for Voting Classifiers over Finite Hypothesis Sets.pdf" class="iconLink">
           <span class="material-symbols-rounded" style="font-size: xx-large; border-radius: 50% 0 50% 0;">
           file_open
           </span>
@@ -109,9 +136,9 @@ function myFunction() {
 
 </script>
 <script>
-  function showAbstract(){
-    var icon = document.getElementById("icon") ;
-    var abst = document.getElementById("abstract") ;
+  function showAbstract(num){
+    var icon = document.getElementById("icon"+num) ;
+    var abst = document.getElementById("abstract"+num) ;
       if (icon.innerHTML === "expand_circle_right") {
         icon.innerHTML = "expand_circle_down";
         abst.style.display = "";
