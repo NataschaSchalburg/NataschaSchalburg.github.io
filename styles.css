@@ -106,7 +106,7 @@ Papers
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: spa;
   gap: 0.5em;
 }
 .paperIcons {
@@ -115,6 +115,9 @@ Papers
   align-items: center;
   gap: 0.05em;
   flex-shrink: 0;
+  height: stretch;
+  padding: 1.5em 0;
+  justify-content: space-evenly;
 }
 .paperIcons .icon {
   margin: 0;
