@@ -74,7 +74,7 @@ Layout
 }
 hr {
   border: thin solid darkcyan;
-  margin: 0 auto;
+  margin: 1.5em auto;
 }
 .container {
     display: inline-flex;
