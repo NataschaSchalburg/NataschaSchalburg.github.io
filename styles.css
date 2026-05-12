@@ -20,7 +20,7 @@ a {
 }
 
 a.subtleLink {
-  color: darkslategrey
+  color: #2f4f4f
 }
 
 font.highlighted {
@@ -73,7 +73,7 @@ Layout
   width: 83%;
 }
 hr {
-  border: thin solid darkcyan;
+  border: thin solid #008b8b;
   margin: 1.5em auto;
 }
 .container {
@@ -106,7 +106,7 @@ Papers
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: spa;
+  align-items: space-between;
   gap: 0.5em;
 }
 .paperIcons {
