@@ -33,27 +33,24 @@ Navigation
 ===================================*/
 .topnav {
   overflow: hidden;
-  /* background-color: #333; */
   display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: stretch;
-  /* justify-content: space-evenly; */
   width: 80%;
   margin: 0 auto;
 }
 .topnav a {
   color: black;
   text-align: center;
-  padding: 0.825em 1em;
-  font-size: larger;
+  padding: 0.5em 1em;
+  font-size: large;
   transition: background-color .25s ease-in-out;
   border-radius: 0.825em 0 0.825em 0;
   margin: 0.5em;
 }
 .topnav a:hover {
   background-color: #20b2aa36;
-  /* color: #333; */
 }
 .topnav .icon {
   display: none;
