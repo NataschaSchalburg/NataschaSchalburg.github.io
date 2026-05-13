@@ -139,6 +139,12 @@ Papers
   padding: 0 1em;
 }
 
+#Publications hr {
+  width: auto; 
+  margin: 1em 0 1em 4em; 
+  border-color: #9ccfcfa3;
+}
+
 /*
 ===================================
 Images and icons
